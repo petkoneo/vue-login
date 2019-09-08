@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import instance from '@/axios/instance'
 
-Vue.prototype.$http = instance
+Vue.prototype.$axios = instance
 
 Vue.config.productionTip = false
 

@@ -37,7 +37,7 @@ export default {
     msg: String
   },
   async created () {
-    console.log(await this.$http('people/3'))
+    console.log(await this.$axios('people/3'))
   }
 }
 </script>
