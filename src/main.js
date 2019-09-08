@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import instance from '@/axios/instance'
+
+Vue.prototype.$http = instance
 
 Vue.config.productionTip = false
 

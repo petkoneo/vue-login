@@ -35,6 +35,9 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  async created () {
+    console.log(await this.$http('people/3'))
   }
 }
 </script>
